@@ -16,9 +16,9 @@ getRunningScript(filename: string | number, hostname: string, ...args: (string |
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filename | string \| number |  |
-|  hostname | string |  |
-|  args | (string \| number)\[\] |  |
+|  filename | string \| number | -Required- Name of the .script you are looking for. |
+|  hostname | string | -Required- Name of the server that is running the script. |
+|  args | (string \| number)\[\] | -Required- Arguments that were used to run the script, a running script is identified by it's specific args. |
 
 <b>Returns:</b>
 
@@ -29,4 +29,3 @@ info about a running script
 ## Remarks
 
 RAM cost: 0.3 GB
-
